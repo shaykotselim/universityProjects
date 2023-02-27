@@ -4,7 +4,7 @@ int main(){
    int num20 = 20 , num10 = 10 , num5 = 5, num1 = 1;
    int divNum20, divNum10, divNum5, divNum1, totalAmount, reminderNum20, reminderNum10, reminderNum5;
 
-   printf("Enter Total Amount: ");
+   printf("\t Enter Total Amount: ");
    scanf("%d",&totalAmount);
 
     divNum20 = totalAmount / num20;
