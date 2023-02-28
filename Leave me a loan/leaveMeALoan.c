@@ -52,9 +52,9 @@ int main (){
     firstMonthAmount = totalInterestAmount - monthlyPay;
     secondMonthAmount = firstMonthAmount - monthlyPay;
     thirdMonthAmount = secondMonthAmount - monthlyPay;
-    printf("\t Balance remaining after first payment: %$.2f \n", firstMonthAmount);
-    printf("\t Balance remaining after second payment:$ %.2f \n", secondMonthAmount);
-    printf("\t Balance remaining after third payment:$ %.2f \n", thirdMonthAmount);
+    printf("\t Balance remaining after first payment: %.2f \n", firstMonthAmount);
+    printf("\t Balance remaining after second payment: %.2f \n", secondMonthAmount);
+    printf("\t Balance remaining after third payment: %.2f \n", thirdMonthAmount);
 
     getch();
 }
