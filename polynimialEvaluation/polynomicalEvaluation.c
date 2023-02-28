@@ -1,3 +1,10 @@
+/*
+    Polynomial Evaluation:
+
+    Write a C program that asks the user to enter the value of x
+    and outputs the value of the following polynomial:
+    3x5 + 2x4 - 5x 3 -x 2 + 7x - 6
+*/
 #include<stdio.h>
 
  int main(){

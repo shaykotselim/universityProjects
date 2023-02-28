@@ -1,3 +1,33 @@
+/*
+                Counting Denominations:
+    Convenience Delivery Store(CDS) of Imperial University of
+    Tokyo (IUT) is a retail business that stocks a range of everyday
+    items such as snack foods, confectionery, soft drinks, toiletries,
+    etc. As the university houses international students, the store
+    accepts $ as payment currency. Everyday numerous students get
+    their daily goods from CDS. After purchasing an item, whenever a
+    student
+
+    gives a note of large denomination (like $500 for example), the
+    owner of the shop Mr. Sakamoto faces a huge problem. He can
+    easily calculate the amount to be returned.
+    But he doesn’t know how to pay that amount using the smallest
+    number of denominations.
+    Mr. Sakamoto knows you’re a great programmer and asked for
+    your help. You need to write a program that takes the U.S. dollar
+    amount as input and then shows how to pay that amount using
+    the smallest number of $20, $10, $5, and $1 bills.
+
+    Mr. Sakamoto has assured you that he will not enter any
+    fractional value as input. 
+    Sample run:
+    Enter a dollar amount: 93
+    $20 bills: 4
+    $10 bills: 1
+    $5 bills: 0
+    $1 bills: 3
+
+*/
 #include<stdio.h>
 
 int main(){
